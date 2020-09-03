@@ -1,0 +1,34 @@
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.font{
+    font-family: 'Grandstander', cursive;
+    color: white;
+}
+
+.idNum{
+    text-align: center;
+    padding-top: 35px;
+}
+
+.openCase{
+    background: url("/assets/img/openBC_sm.png") no-repeat center; 
+    height: 145px;
+    width: 160px;
+    color: white;
+    flex-flow: column wrap;
+    padding-left: 8px;;
+   }
+
+   .closedCase{
+    background: url("/assets/img/briefcase_sm.png") no-repeat center; 
+    height: 145px;
+    width: 160px;
+    color: white;
+    flex-flow: column wrap;
+    padding-left: 8px;;
+   }
+   
